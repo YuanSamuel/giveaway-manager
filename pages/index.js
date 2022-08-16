@@ -5,7 +5,7 @@ import LoginButton from '../components/login-button';
 export default function Home() {
   const { data: session, status } = useSession();
   const loading = status === 'loading';
-
+  console.log(process.env.FACEBOOK_CLIENT_ID)
   return (
     <div>
       <Head>
