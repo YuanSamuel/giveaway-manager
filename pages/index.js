@@ -15,6 +15,7 @@ export default function Home() {
         <meta name='description' content='DNBA Giveaway Manager' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <h1>{loading}</h1>
       <LoginButton />
     </div>
   );
